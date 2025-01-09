@@ -1,0 +1,20 @@
+Analysis
+
+
+
+Data Cleaning:
+
+Some values have \n:
+ 	First, I located the columns which
+	contain this anomality. Apart from develeopment_obstacles, 
+	all instance of "\n" are at the end of the values. I used
+	rstrip to get rid of them. I had to check if rstip also
+	removes trailing n's. It does not. 
+
+Deal with NA values:
+	sport_hours: fill with 0
+	cigarettes_per_day: fill with 0 
+	coffee_cups: fill with 0
+	development_obstacles: Keep as it is or fill with "None"
+	city_preference: fill with "None"
+	salary_expectation: Impute with the respective department's mean.

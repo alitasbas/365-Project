@@ -1,0 +1,36 @@
+AI Help
+
+
+Asked gpt to summarize the Excel column headers to a dictionary format.
+
+{
+    "Submission ID": "submission_id",
+    "Last updated": "last_updated",
+    "Submission started": "submission_started",
+    "Status": "status",
+    "Current step": "current_step",
+    "How old are you?": "age",
+    "What is your gender?": "gender",
+    "What is your department?": "department",
+    "What is your current academic grade?": "academic_grade",
+    "Where do you currently live?": "current_residence",
+    "Where do you prefer to study the most?": "study_preference",
+    "What is your GPA?": "gpa",
+    "On average, how many hours of sleep do you get per night?": "sleep_hours",
+    "On average, how many hours per week do you spend on sports or physical activities?(Please enter a number)": "sports_hours",
+    "How many cigarettes do you smoke on average per day?(If you don't smoke, please put 0)": "cigarettes_per_day",
+    "How many cups of coffee do you drink per day?(Please enter a number)": "coffee_cups",
+    "Please rate your department satisfaction": "department_satisfaction",
+    "What are the biggest obstacles to your academic and/or professional development?": "development_obstacles",
+    "How long do you expect it will take you to find a job after graduation?": "job_search_duration",
+    "Do you plan to pursue further education after graduation?": "further_education",
+    "What type of work arrangement do you prefer after graduation?": "work_preference",
+    "Where do you plan to work after graduation?": "work_location",
+    "Do you plan to work in the public sector or the private sector after graduation?": "sector_preference",
+    "Do you plan to work in your department’s field or in a different sector after graduation?": "field_preference",
+    "In which city would you like to work after graduation?": "desired_city",
+    "What is your expected monthly salary after graduation? (in thousands of Turkish Liras, e.g., 30 for 30.000 TRY)": "expected_salary",
+    "Errors": "errors",
+    "Url": "url",
+    "Network ID": "network_id"
+}

@@ -1,0 +1,9 @@
+We are seeking for information about the expectations of various engineering majors after graduation, and how they vary. Our questions are of two parts. First part aims to gather information that might be correlated or even affect the responses of the participants in the second part. The second part will give us a general idea of the inclinations of different engineering majors.
+
+Survey will be conducted face to face. One open-ended questions. There are multiple choice, close-ended, scale, etc.
+
+Order of questions.
+
+
+
+There are a bunch of departments. We can perform multi-stage clustering. Cluster select some departments and seek to interview an SRS for each year.
