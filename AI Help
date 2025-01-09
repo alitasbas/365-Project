@@ -34,3 +34,23 @@ Asked gpt to summarize the Excel column headers to a dictionary format.
     "Url": "url",
     "Network ID": "network_id"
 }
+
+
+# Sonnet helped me with the word graph.
+
+# Count words
+words = ' '.join(df['your_column'].astype(str)).lower().split()
+word_freq = Counter(words).most_common(10)  # Top 10 words
+
+# Create lists for plotting
+words, counts = zip(*word_freq)
+
+# Plot
+plt.figure(figsize=(10, 6))
+plt.bar(words, counts)
+plt.xticks(rotation=45)
+plt.title('Most Common Words')
+plt.xlabel('Words')
+plt.ylabel('Frequency')
+plt.tight_layout()
+plt.show()

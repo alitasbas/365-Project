@@ -18,3 +18,16 @@ Deal with NA values:
 	development_obstacles: Keep as it is or fill with "None"
 	city_preference: fill with "None"
 	salary_expectation: Impute with the respective department's mean.
+
+Standardize Cases:
+	city_preference column has similar answers. Eg. Istanbul, istanbul.
+	Get them to camel case.
+
+EDA:
+	- word graph of city preference
+	-
+
+
+Research Questions:
+	Ali: How do the students' country preference change as they get closer to graduating?
+	Yunus: benim aklıma şey geldi bölümlerin sıralamaları ve mezun olduktan sonraki maaş beklentileri arasında ilişki var mı
